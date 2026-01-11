@@ -7,3 +7,4 @@
 /Gemini_Generated_Image_*.jpg
 *.pdf
 *.xlsx
+!/src/등록_커리큘럼_최종/*.xlsx
