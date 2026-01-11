@@ -1,0 +1,9 @@
+/.vscode
+/site
+/src/단어
+/src/data
+/document
+/dds_movie
+/Gemini_Generated_Image_*.jpg
+*.pdf
+*.xlsx

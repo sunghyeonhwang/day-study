@@ -1,0 +1,1798 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>혼공 영어 중1 마스터 · Level 1 (1~32강)</title>
+
+<style>
+:root{
+  --bg:#0e1117;
+  --card:#161b22;
+  --border:#30363d;
+  --text:#e6edf3;
+  --muted:#9da7b3;
+  --accent:#46A2FF;
+  --accent2:#9C5AFF;
+  --warn:#ffb703;
+  --ok:#00e1ff;
+  --radius:16px;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans KR,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
+
+.container{max-width:980px;margin:0 auto;padding:48px 20px 120px;}
+header{margin-bottom:42px}
+header h1{font-size:34px;margin:0 0 12px}
+header p{color:var(--muted);max-width:760px;margin:0}
+
+.note{
+  margin:20px 0 0;
+  padding:14px 16px;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:rgba(255,255,255,.03);
+  color:var(--muted);
+  font-size:14px;
+}
+
+.lesson{
+  margin-top:54px;
+  padding-top:42px;
+  border-top:1px solid var(--border);
+}
+.lesson h2{
+  font-size:26px;
+  margin:0 0 18px;
+  letter-spacing:-.01em;
+}
+.lesson .sub{
+  color:var(--muted);
+  margin:-6px 0 18px;
+  font-size:14px;
+}
+
+.block{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:18px 20px;
+  margin-bottom:14px;
+}
+.block h3{margin:0 0 10px;font-size:15px;letter-spacing:-.01em}
+.block ul{margin:0;padding-left:18px}
+.block li{margin:6px 0}
+.block p{margin:0;color:var(--text)}
+
+.goal h3{color:var(--accent)}
+.core h3{color:var(--text)}
+.warn h3{color:var(--warn)}
+.think h3{color:var(--accent2)}
+.summary{
+  background:rgba(0,225,255,.08);
+  border-color:rgba(0,225,255,.30);
+}
+.summary h3{color:var(--ok)}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:10px;
+  font-size:14px;
+}
+th,td{
+  border:1px solid var(--border);
+  padding:8px 10px;
+  text-align:center;
+}
+th{background:#1f2633}
+
+small{color:var(--muted)}
+hr.sep{border:0;border-top:1px solid var(--border);margin:14px 0}
+
+.toc{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+.toc a{
+  display:block;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:rgba(255,255,255,.03);
+  color:var(--text);
+  text-decoration:none;
+  font-size:14px;
+}
+.toc a:hover{border-color:rgba(255,255,255,.22)}
+.copy-btn{
+  margin:0 0 16px;
+  padding:8px 12px;
+  font-size:13px;
+  border-radius:10px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.04);
+  color:var(--text);
+  cursor:pointer;
+}
+.copy-btn:hover{
+  border-color:rgba(255,255,255,.3);
+}
+.copy-btn.copied{
+  color:#00e1ff;
+  border-color:#00e1ff;
+}
+
+@media (max-width:720px){
+  .toc{grid-template-columns:1fr}
+  header h1{font-size:28px}
+  .lesson h2{font-size:22px}
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+  <h1>혼공 영어 중1 마스터 · Level 1</h1>
+  <p>
+    be동사부터 준동사까지, 중학교 1학년 필수 문법 32강 커리큘럼.  
+    모든 강의는 동일한 구조(🎯/📌/⚠️/✏️/✅)로 구성되어, 스크롤로 쭉 읽어도 흐름이 끊기지 않게 설계했습니다.
+  </p>
+
+  <div class="note">
+    <b>빠른 이동</b> (목차 링크) — 페이지가 길어서 필요한 강만 바로 찾을 수 있어요.
+    <div class="toc">
+      <a href="#l1">1강</a><a href="#l2">2강</a><a href="#l3">3강</a><a href="#l4">4강</a>
+      <a href="#l5">5강</a><a href="#l6">6강</a><a href="#l7">7강</a><a href="#l8">8강</a>
+      <a href="#l9">9강</a><a href="#l10">10강</a><a href="#l11">11강</a><a href="#l12">12강</a>
+      <a href="#l13">13강</a><a href="#l14">14강</a><a href="#l15">15강</a><a href="#l16">16강</a>
+      <a href="#l17">17강</a><a href="#l18">18강</a><a href="#l19">19강</a><a href="#l20">20강</a>
+      <a href="#l21">21강</a><a href="#l22">22강</a><a href="#l23">23강</a><a href="#l24">24강</a>
+      <a href="#l25">25강</a><a href="#l26">26강</a><a href="#l27">27강</a><a href="#l28">28강</a>
+      <a href="#l29">29강</a><a href="#l30">30강</a><a href="#l31">31강</a><a href="#l32">32강</a>
+    </div>
+  </div>
+</header>
+
+<!-- 1강 -->
+<section class="lesson" id="l1">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+
+  <h2>1강 · 문장의 기초</h2>
+  <div class="sub">인칭대명사와 be동사</div>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>영어 문장의 기본 구조(주어/동사) 이해</li>
+      <li>인칭대명사와 be동사 짝꿍 연결</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>be동사 뜻</b> : ~이다 / ~에 있다 / ~하다(상태)</p>
+    <table>
+      <tr><th>주어</th><th>be동사</th><th>메모</th></tr>
+      <tr><td>I</td><td>am</td><td>1인칭 단수</td></tr>
+      <tr><td>You</td><td>are</td><td>2인칭(단/복수)</td></tr>
+      <tr><td>He / She / It</td><td>is</td><td>3인칭 단수</td></tr>
+      <tr><td>We / They</td><td>are</td><td>복수</td></tr>
+    </table>
+    <hr class="sep">
+    <p><b>줄임말</b> : I’m / You’re / He’s / She’s / It’s / We’re / They’re</p>
+    <small>주의: This is는 This's로 줄이지 않음</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>I is ❌ → I am ✅</li>
+      <li>He are ❌ → He is ✅</li>
+      <li>이름(Tom, Jane)은 3인칭 단수처럼 취급</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>사람 이름이 나오면 대명사로 바꿔 보기: Tom → He, Jane → She</li>
+      <li>주어의 단/복수부터 확인</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>주어가 바뀌면 be동사도 am/are/is로 반드시 바뀐다.</p>
+  </div>
+</section>
+
+<!-- 2강 -->
+<section class="lesson" id="l2">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>2강 · be동사의 부정문과 의문문</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>be동사 문장을 부정/의문으로 변형</li>
+      <li>not의 위치와 어순 변화 익히기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>부정문</b> : 주어 + be + not</p>
+    <p><b>의문문</b> : Be + 주어 ~ ?</p>
+    <hr class="sep">
+    <p><b>Yes/No 대답</b></p>
+    <ul>
+      <li>Yes, 주어(대명사) + be.</li>
+      <li>No, 주어(대명사) + be + not.</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>대답할 때 질문의 이름을 그대로 쓰지 말고 대명사로: Tom → he</li>
+      <li>ain’t는 비표준(교재/시험에서 사용 X)</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>부정문은 be 바로 뒤에 not을 “붙인다”</li>
+      <li>의문문은 be를 “앞으로 보낸다”</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>부정은 be+not, 의문은 be를 앞으로!</p>
+  </div>
+</section>
+
+<!-- 3강 -->
+<section class="lesson" id="l3">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+    <h2>3강 · 일반동사의 현재형</h2>
+  <div class="sub">동작과 상태</div>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>일반동사(be동사 말고 “행동” 동사) 이해</li>
+      <li>3인칭 단수 현재형 변화(s/es) 정복</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li>일반동사는 be동사와 함께 쓰지 않음: I am like ❌ → I like ✅</li>
+      <li><b>3인칭 단수(He/She/It/이름 하나)</b> + 현재 → 동사에 <b>s/es</b></li>
+    </ul>
+    <table>
+      <tr><th>규칙</th><th>예시</th></tr>
+      <tr><td>대부분</td><td>likes, works</td></tr>
+      <tr><td>-o, -s, -x, -ch, -sh</td><td>goes, watches, washes</td></tr>
+      <tr><td>자음 + y</td><td>study → studies</td></tr>
+      <tr><td>모음 + y</td><td>play → plays</td></tr>
+      <tr><td>불규칙</td><td>have → has</td></tr>
+    </table>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>I/You/We/They는 동사 원형(=s 안 붙임)</li>
+      <li>이름 하나(Tom)는 3인칭 단수로 취급</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>주어를 대명사로 바꾸고 He/She/It이면 s/es 적용</li>
+      <li>끝 철자(-y, -o 등)를 먼저 확인</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>현재형에서 3인칭 단수면 동사에 s/es를 붙인다.</p>
+  </div>
+</section>
+
+<!-- 4강 -->
+<section class="lesson" id="l4">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+    <h2>4강 · 일반동사의 부정문과 의문문</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>Do/Does로 일반동사 문장 변형</li>
+      <li>부정·의문에서 동사원형 규칙 익히기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>부정문</b></p>
+    <table>
+      <tr><th>주어</th><th>공식</th><th>예시</th></tr>
+      <tr><td>I/You/We/They</td><td>don’t + 동사원형</td><td>I don’t like carrots.</td></tr>
+      <tr><td>He/She/It</td><td>doesn’t + 동사원형</td><td>He doesn’t like carrots.</td></tr>
+    </table>
+    <hr class="sep">
+    <p><b>의문문</b></p>
+    <table>
+      <tr><th>주어</th><th>공식</th><th>대답</th></tr>
+      <tr><td>I/You/We/They</td><td>Do + 주어 + 동사원형?</td><td>Yes, I do / No, I don’t</td></tr>
+      <tr><td>He/She/It</td><td>Does + 주어 + 동사원형?</td><td>Yes, he does / No, he doesn’t</td></tr>
+    </table>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>doesn’t 뒤 동사는 반드시 원형: likes ❌ → like ✅</li>
+      <li>Do/Does가 나오면 “이미 문법 표시 완료”라서 동사는 힘 빼기</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>문장에 Do/Does가 보이면, 뒤 동사가 원형인지 먼저 체크</li>
+      <li>주어가 3인칭 단수면 Does/doesn’t 선택</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>Do/Does가 나오면 동사는 무조건 원형으로 돌아온다.</p>
+  </div>
+</section>
+
+<!-- 5강 -->
+<section class="lesson" id="l5">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+    <h2>5강 · 일반동사 총정리 (문제풀이)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>3강(s/es) + 4강(Do/Does)을 섞은 실전 문제 해결</li>
+      <li>주어 판단을 빠르게(대명사 변환)</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li><b>주어 확인</b>: My father → He / Jane and I → We</li>
+      <li><b>문장 종류 확인</b>: 평서문(s/es) · 부정(don’t/doesn’t) · 의문(Do/Does)</li>
+      <li><b>동사 확인</b>: Do/Does 뒤는 반드시 원형</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>doesn’t 뒤에 s 붙이는 실수 최다</li>
+      <li>주어가 길면 대명사로 바꿔야 판단이 쉬움</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>① 주어 → ② 문장 종류 → ③ 동사 형태 순서로 체크</li>
+      <li>틀린 문제는 “이유”까지 메모(예: Tom을 3인칭으로 못 봄)</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>주어·문장종류·동사형태 이 3단계로 보면 실수가 줄어든다.</p>
+  </div>
+</section>
+
+<!-- 6강 -->
+<section class="lesson" id="l6">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+    <h2>6강 · 현재진행형 (Present Continuous)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>“지금 ~하는 중”을 표현하는 be+ing 구조 익히기</li>
+      <li>-ing 규칙(철자 변화) 적용</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>공식</b>: 주어 + be(am/are/is) + 동사-ing</p>
+    <table>
+      <tr><th>규칙</th><th>예시</th></tr>
+      <tr><td>기본</td><td>go → going</td></tr>
+      <tr><td>e 제거</td><td>make → making</td></tr>
+      <tr><td>ie → y</td><td>die → dying</td></tr>
+      <tr><td>단모음+단자음(자음 하나 더)</td><td>run → running</td></tr>
+    </table>
+    <hr class="sep">
+    <p><b>부정/의문</b></p>
+    <ul>
+      <li>부정: be + not + ing (I am not studying.)</li>
+      <li>의문: Be + 주어 + ing? (Are you sleeping?)</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>진행형에는 반드시 be동사가 필요: I studying ❌</li>
+      <li>주어에 따라 be(am/are/is) 선택</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>문장에 “지금, 현재” 느낌이 있으면 be+ing 의심</li>
+      <li>ing 붙이기 전에 끝 철자(e/ie/단모음+단자음)부터 확인</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>현재진행형은 be+ing(지금 하고 있는 중)이다.</p>
+  </div>
+</section>
+
+<!-- 7강 -->
+<section class="lesson" id="l7">
+<button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+    <h2>7강 · be동사의 과거형</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>am/is/are의 과거형 was/were 연결</li>
+      <li>과거 부정문/의문문까지 한 번에 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>현재</th><th>과거</th><th>짝꿍 주어</th></tr>
+      <tr><td>am / is</td><td><b>was</b></td><td>I, He, She, It(단수)</td></tr>
+      <tr><td>are</td><td><b>were</b></td><td>You, We, They(복수)</td></tr>
+    </table>
+    <hr class="sep">
+    <ul>
+      <li>부정: was/were + not → wasn’t / weren’t</li>
+      <li>의문: Was/Were + 주어 ~ ?</li>
+    </ul>
+    <small>예: I was happy. / You were in the room.</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>I were ❌ → I was ✅</li>
+      <li>단수/복수 먼저 판단하면 거의 안 틀림</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>현재(am/is/are)를 떠올리고 과거(was/were)로 “짝꿍 이동”</li>
+      <li>질문이면 Was/Were를 문장 맨 앞으로</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>과거 be동사: 단수 was / 복수 were</p>
+  </div>
+</section>
+
+<!-- 8강 -->
+<section class="lesson" id="l8">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>8강 · 일반동사의 과거형 (규칙 변화)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>동사에 -ed를 붙여 과거형 만들기</li>
+      <li>끝 철자에 따른 규칙 적용</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>규칙</th><th>설명</th><th>예시</th></tr>
+      <tr><td>대부분</td><td>-ed</td><td>play → played</td></tr>
+      <tr><td>e로 끝남</td><td>-d</td><td>like → liked</td></tr>
+      <tr><td>자음 + y</td><td>y→i + ed</td><td>study → studied</td></tr>
+      <tr><td>모음 + y</td><td>그냥 -ed</td><td>enjoy → enjoyed</td></tr>
+      <tr><td>단모음+단자음</td><td>자음 하나 더 + ed</td><td>stop → stopped</td></tr>
+    </table>
+    <small>과거형은 주어와 상관없이 형태가 동일합니다.</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>자음+y는 i로 바꾸는지 먼저 체크</li>
+      <li>단모음+단자음은 자음 하나 더 쓰기</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>동사 끝 글자부터 보고 규칙표에 대입</li>
+      <li>규칙형은 “패턴”이라 반복하면 자동화됨</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>규칙 과거형은 -ed, 단 끝 철자 규칙을 꼭 적용한다.</p>
+  </div>
+</section>
+
+<!-- 9강 -->
+<section class="lesson" id="l9">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>9강 · 일반동사의 과거형 (불규칙 변화)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>-ed 규칙을 따르지 않는 불규칙 과거형 암기</li>
+      <li>자주 나오는 핵심 동사부터 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>원형</th><th>과거형</th><th>뜻</th></tr>
+      <tr><td>go</td><td>went</td><td>갔다</td></tr>
+      <tr><td>have</td><td>had</td><td>가졌다/먹었다</td></tr>
+      <tr><td>see</td><td>saw</td><td>보았다</td></tr>
+      <tr><td>eat</td><td>ate</td><td>먹었다</td></tr>
+      <tr><td>make</td><td>made</td><td>만들었다</td></tr>
+      <tr><td>put</td><td>put</td><td>놓았다(모양 동일)</td></tr>
+      <tr><td>hit</td><td>hit</td><td>쳤다(모양 동일)</td></tr>
+      <tr><td>read</td><td>read(발음: 레드)</td><td>읽었다</td></tr>
+    </table>
+    <small>불규칙은 규칙이 없으므로 “입에 붙을 때까지” 암기합니다.</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>read는 철자는 같아도 과거 발음이 “레드”</li>
+      <li>put/hit은 원형=과거형이라 헷갈리기 쉬움</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>A-B형(go-went) / A-A형(put-put)으로 묶어 외우기</li>
+      <li>문장 속에서 반복해서 써보며 암기 강화</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>불규칙 과거형은 “묶어서” 외우는 게 가장 빠르다.</p>
+  </div>
+</section>
+
+<!-- 10강 -->
+<section class="lesson" id="l10">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>10강 · 일반동사 과거형의 부정문과 의문문</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>과거 부정/의문에서 Did 활용</li>
+      <li>Did 뒤 동사원형 규칙 확립</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li><b>부정문</b>: 주어 + didn’t + 동사원형<br><small>예: I didn’t go. (went ❌)</small></li>
+      <li><b>의문문</b>: Did + 주어 + 동사원형?<br><small>예: Did you meet him? (met ❌)</small></li>
+      <li><b>대답</b>: Yes, I did. / No, I didn’t.</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>Did가 이미 과거 표시 → 뒤 동사는 무조건 원형</li>
+      <li>went/met 같은 과거형을 Did 뒤에 쓰면 오답</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>문장에 did/didn’t가 보이면 “동사 원형 체크”부터</li>
+      <li>주어 인칭과 상관없이 과거는 Did 하나로 통일</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>과거 부정/의문은 Did, 그리고 Did 뒤 동사는 원형!</p>
+  </div>
+</section>
+
+<!-- 11강 -->
+<section class="lesson" id="l11">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>11강 · 미래 표현 (Will / Be going to)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>미래 표현 2가지의 형태와 뉘앙스 구분</li>
+      <li>will, be going to 문장 만들기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>표현</th><th>형태</th><th>의미</th></tr>
+      <tr><td>Will</td><td>will + 동사원형</td><td>즉흥적 의지 / 막연한 예측</td></tr>
+      <tr><td>Be going to</td><td>be + going to + 동사원형</td><td>계획된 일 / 예정</td></tr>
+    </table>
+    <hr class="sep">
+    <ul>
+      <li>will not → <b>won’t</b></li>
+      <li>예: I am going to visit my grandma. (계획)</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>going to 앞에는 반드시 be동사(am/are/is)가 필요</li>
+      <li>will 뒤 동사는 무조건 원형</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>“방금 결정”이면 will</li>
+      <li>“이미 계획”이면 be going to</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>will=즉흥/예측, be going to=계획/예정</p>
+  </div>
+</section>
+
+<!-- 12강 -->
+<section class="lesson" id="l12">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>12강 · 조동사 1 (Can, May)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>조동사의 공통 규칙 이해</li>
+      <li>Can/May의 의미 구분</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li><b>조동사 규칙</b>: 뒤에는 무조건 <b>동사원형</b> (s 금지)</li>
+      <li>주어가 3인칭 단수여도 조동사에 s 붙이지 않음(Cans ❌)</li>
+    </ul>
+    <table>
+      <tr><th>조동사</th><th>뜻 1</th><th>뜻 2</th><th>메모</th></tr>
+      <tr><td>Can</td><td>능력: 할 수 있다</td><td>허락: ~해도 된다</td><td>= be able to</td></tr>
+      <tr><td>May</td><td>허락(더 정중)</td><td>약한 추측: ~일지도</td><td>Can보다 정중</td></tr>
+    </table>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>조동사 뒤 동사에 s 붙이면 바로 오답</li>
+      <li>May는 “허락+추측” 둘 다 가능</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>문장에 Can/May가 보이면 동사원형인지부터 확인</li>
+      <li>상황(능력/허락/추측)으로 뜻 결정</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>조동사 뒤에는 무조건 동사원형이다.</p>
+  </div>
+</section>
+
+<!-- 13강 -->
+<section class="lesson" id="l13">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>13강 · 조동사 2 (Must, Should)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>의무/조언 표현의 강도 차이 이해</li>
+      <li>Have to가 조동사가 아니라는 점 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>표현</th><th>의미</th><th>특징</th></tr>
+      <tr><td>Must</td><td>반드시 ~해야 한다</td><td>강한 의무 / 강한 추측</td></tr>
+      <tr><td>Should</td><td>~하는 게 좋다</td><td>조언/충고</td></tr>
+      <tr><td>Have to</td><td>~해야 한다</td><td>조동사 아님(변화함)</td></tr>
+    </table>
+    <hr class="sep">
+    <ul>
+      <li>Have to는 변화: has to / had to</li>
+      <li>Must not = 절대 하면 안 된다(금지)</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>Must not은 “안 해도 됨”이 아니라 “금지”</li>
+      <li>Have to는 3인칭 단수에서 has to로 바뀜</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>강제 느낌이면 must, 권유 느낌이면 should</li>
+      <li>have to는 일반동사처럼 형태 변화 확인</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>must=강한 의무, should=조언, have to=일반동사</p>
+  </div>
+</section>
+
+<!-- 14강 -->
+<section class="lesson" id="l14">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>14강 · 명사와 관사 (셀 수 있는 명사)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>셀 수 있는 명사의 단수/복수 개념</li>
+      <li>a/an 사용 규칙(발음 기준)</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li>셀 수 있는 명사: 단수면 a/an, 복수면 -s/-es</li>
+      <li><b>a</b>: 자음 소리 앞 / <b>an</b>: 모음 소리 앞</li>
+    </ul>
+    <table>
+      <tr><th>관사</th><th>규칙</th><th>예시</th></tr>
+      <tr><td>a</td><td>자음 소리</td><td>a book, a student, a university(‘유’)</td></tr>
+      <tr><td>an</td><td>모음 소리</td><td>an apple, an egg, an hour(h 묵음)</td></tr>
+    </table>
+    <small>철자 기준이 아니라 “발음(소리)” 기준입니다. (an MP3)</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>hour는 h가 묵음이라 an hour</li>
+      <li>university는 ‘유’ 소리라 a university</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>단어를 “소리로 읽고” a/an 결정</li>
+      <li>단수인지 복수인지 먼저 체크</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>a/an은 철자가 아니라 “발음” 기준이다.</p>
+  </div>
+</section>
+
+<!-- 15강 -->
+<section class="lesson" id="l15">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>15강 · 명사와 관사 (셀 수 없는 명사)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>셀 수 없는 명사의 특징 이해</li>
+      <li>단위 표현으로 세는 법 익히기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li>셀 수 없는 명사: a/an ❌, 복수(-s) ❌, 항상 단수 취급</li>
+      <li>예: water, air, sugar, bread, love, money</li>
+      <li>세는 법: 단위 명사 사용(a cup of, a piece of…)</li>
+    </ul>
+    <table>
+      <tr><th>표현</th><th>예시</th></tr>
+      <tr><td>a cup of</td><td>a cup of coffee</td></tr>
+      <tr><td>a glass of</td><td>a glass of water</td></tr>
+      <tr><td>a bottle of</td><td>a bottle of juice</td></tr>
+      <tr><td>a slice/piece of</td><td>a slice of pizza</td></tr>
+      <tr><td>복수</td><td>Two cups of coffee</td></tr>
+    </table>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>셀 수 없는 명사는 동사도 단수 취급(is/was/has)</li>
+      <li>money는 셀 수 없음(복수 X)</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>“형태가 뚜렷하지 않은 것”은 단위로 세기</li>
+      <li>a/an을 붙일 수 없으면 단위 표현을 떠올리기</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>셀 수 없는 명사는 단위로 센다(a cup of ~).</p>
+  </div>
+</section>
+
+<!-- 16강 -->
+<section class="lesson" id="l16">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>16강 · 명사의 복수형 만들기</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>복수형 규칙 변화와 불규칙 변화 암기</li>
+      <li>자주 나오는 패턴을 표로 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>규칙</th><th>설명</th><th>예시</th></tr>
+      <tr><td>대부분</td><td>-s</td><td>books, cats, desks</td></tr>
+      <tr><td>-s,-x,-ch,-sh</td><td>-es</td><td>buses, boxes, dishes</td></tr>
+      <tr><td>자음 + y</td><td>y→i + es</td><td>baby → babies</td></tr>
+      <tr><td>-f/-fe</td><td>f/fe→v + es</td><td>leaf → leaves, wife → wives</td></tr>
+    </table>
+    <hr class="sep">
+    <p><b>불규칙(암기)</b>: man→men, woman→women, foot→feet, tooth→teeth, mouse→mice</p>
+    <p><b>모양 동일</b>: sheep, deer, fish</p>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>leafs ❌ → leaves ✅</li>
+      <li>fish는 문맥에 따라 단복수 동일로 사용되는 경우 많음</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>끝 철자를 먼저 보고(-y, -f, -sh 등) 규칙 적용</li>
+      <li>불규칙은 따로 묶어서 외우기</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>복수형은 “끝 철자 규칙 + 불규칙 암기”로 끝낸다.</p>
+  </div>
+</section>
+
+<!-- 17강 -->
+<section class="lesson" id="l17">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>17강 · 대명사 (인칭대명사)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>주격/소유격/목적격/소유대명사 한 번에 정리</li>
+      <li>문장 속 자리(역할)에 따라 형태가 바뀜을 이해</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>주격</th><th>소유격</th><th>목적격</th><th>소유대명사</th></tr>
+      <tr><td>I</td><td>my</td><td>me</td><td>mine</td></tr>
+      <tr><td>You</td><td>your</td><td>you</td><td>yours</td></tr>
+      <tr><td>He</td><td>his</td><td>him</td><td>his</td></tr>
+      <tr><td>She</td><td>her</td><td>her</td><td>hers</td></tr>
+      <tr><td>It</td><td>its</td><td>it</td><td>(없음)</td></tr>
+      <tr><td>We</td><td>our</td><td>us</td><td>ours</td></tr>
+      <tr><td>They</td><td>their</td><td>them</td><td>theirs</td></tr>
+    </table>
+    <small>Tip: its에는 점(')이 없습니다. (it's = it is)</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>its(소유격) vs it’s(줄임말) 헷갈림 주의</li>
+      <li>his는 소유격과 소유대명사가 모양이 같음</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>“~의”가 보이면 소유격(my/your/his…)</li>
+      <li>“~의 것”이면 소유대명사(mine/yours…)</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>대명사는 자리(역할)에 따라 모양이 바뀐다.</p>
+  </div>
+</section>
+
+<!-- 18강 -->
+<section class="lesson" id="l18">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>18강 · 지시대명사 (This / That)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>거리(가까움/멀음)와 수(단수/복수)로 구분</li>
+      <li>This/That/These/Those를 한 번에 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>거리</th><th>단수</th><th>복수</th></tr>
+      <tr><td>가까움</td><td>This</td><td>These</td></tr>
+      <tr><td>멀음</td><td>That</td><td>Those</td></tr>
+    </table>
+    <hr class="sep">
+    <ul>
+      <li>전화 영어: “This is Jane.” (전화 건 본인 소개)</li>
+      <li>소개: “Mom, this is my friend.” (옆 사람 소개)</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>These/Those는 복수(여러 개)라는 점이 핵심</li>
+      <li>거리 개념을 잊으면 혼동</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>“손으로 가리킨다” 상상: 가까우면 this/these</li>
+      <li>하나면 this/that, 여러 개면 these/those</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>가까움 this/these, 멀음 that/those</p>
+  </div>
+</section>
+
+<!-- 19강 -->
+<section class="lesson" id="l19">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>19강 · 부정대명사 (One / Some / Any)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>one vs it 구분하기</li>
+      <li>some vs any 사용 문장 구분하기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>One vs It</b></p>
+    <ul>
+      <li>one: 같은 종류 “아무거나 하나” (I need one.)</li>
+      <li>it: “바로 그것” (I like it.)</li>
+    </ul>
+    <hr class="sep">
+    <p><b>Some vs Any</b></p>
+    <ul>
+      <li>some: 긍정문, 권유/요청문</li>
+      <li>any: 부정문, 의문문</li>
+    </ul>
+    <small>예: Would you like some coffee? (권유)</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>긍정문에 any를 쓰면 어색/의미 변화가 생길 수 있음</li>
+      <li>one은 “그것”이 아니라 “같은 종류”라는 점이 핵심</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>이미 정해진 물건이면 it, 종류만 같으면 one</li>
+      <li>긍정=some, 부정·의문=any부터 시작</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>one=같은 종류 하나, it=바로 그것 / some=긍정, any=부정·의문</p>
+  </div>
+</section>
+
+<!-- 20강 -->
+<section class="lesson" id="l20">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>20강 · 형용사 (Adjective)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>형용사의 역할(수식/보어) 이해</li>
+      <li>수량 형용사 many/much 등 구분</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li>명사 수식: happy boy</li>
+      <li>보어: He is happy</li>
+    </ul>
+    <hr class="sep">
+    <table>
+      <tr><th>뜻</th><th>셀 수 있는 명사</th><th>셀 수 없는 명사</th></tr>
+      <tr><td>많은</td><td>many</td><td>much</td></tr>
+      <tr><td>조금 있는</td><td>a few</td><td>a little</td></tr>
+      <tr><td>거의 없는</td><td>few</td><td>little</td></tr>
+    </table>
+    <small>a가 붙으면 “조금이라도 있다(긍정)”, 없으면 “거의 없다(부정)”</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>many는 복수 셀 수 있음, much는 셀 수 없음</li>
+      <li>a few / few 의미 차이(긍정 vs 부정)</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>뒤 명사가 복수면 many/a few부터 의심</li>
+      <li>셀 수 없으면 much/a little 쪽으로 선택</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>셀 수 있으면 many/a few, 셀 수 없으면 much/a little</p>
+  </div>
+</section>
+
+<!-- 21강 -->
+<section class="lesson" id="l21">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>21강 · 부사 (Adverb)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>부사의 형태(-ly) 이해</li>
+      <li>빈도부사 위치(조비뒤일앞) 익히기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li>형태: 형용사 + ly (slow → slowly)</li>
+      <li>예외: fast, hard, early는 형용사/부사 모양 같음</li>
+    </ul>
+    <hr class="sep">
+    <p><b>빈도부사</b>: always, usually, often, never</p>
+    <p><b>위치</b>: 조동사/be동사 뒤, 일반동사 앞 (조비뒤일앞)</p>
+    <small>예: I am always happy. / I often eat pizza.</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>be동사 뒤 vs 일반동사 앞 위치 구분</li>
+      <li>빈도부사는 시험에 자주 출제</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>먼저 동사 종류를 확인(be/일반동사/조동사)</li>
+      <li>“조비뒤일앞”을 공식처럼 외우기</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>빈도부사 위치는 조비뒤일앞</p>
+  </div>
+</section>
+
+<!-- 22강 -->
+<section class="lesson" id="l22">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>22강 · 비교급과 최상급</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>비교급/최상급 만드는 규칙 정리</li>
+      <li>불규칙 변화 암기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>구분</th><th>짧은 단어</th><th>긴 단어</th><th>불규칙</th></tr>
+      <tr><td>비교급</td><td>-er</td><td>more ~</td><td>good→better</td></tr>
+      <tr><td>최상급</td><td>-est</td><td>most ~</td><td>bad→worse</td></tr>
+    </table>
+    <hr class="sep">
+    <p><b>불규칙</b>: good/well→better→best, bad/ill→worse→worst, many/much→more→most</p>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>긴 단어에 -er 붙이면 오답(beautifuler ❌)</li>
+      <li>good/bad 불규칙은 거의 필수 출제</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>단어 길이부터 판단(짧으면 -er/-est, 길면 more/most)</li>
+      <li>예외(불규칙)는 암기로 처리</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>짧으면 -er/-est, 길면 more/most, 불규칙은 암기</p>
+  </div>
+</section>
+
+<!-- 23강 -->
+<section class="lesson" id="l23">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>23강 · 문장의 종류 (명령, 청유, 감탄)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>명령문/청유문/감탄문 공식 익히기</li>
+      <li>문장 구조를 보고 종류를 판단</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li><b>명령문</b>: 동사원형으로 시작 (Open the door.)</li>
+      <li><b>청유문</b>: Let’s + 동사원형 (Let’s go.)</li>
+    </ul>
+    <hr class="sep">
+    <table>
+      <tr><th>종류</th><th>공식</th><th>예시</th></tr>
+      <tr><td>What 감탄문</td><td>What + a/an + 형 + 명 + (주+동)!</td><td>What a nice car!</td></tr>
+      <tr><td>How 감탄문</td><td>How + 형/부 + (주+동)!</td><td>How fast he runs!</td></tr>
+    </table>
+    <small>명사가 있으면 What, 명사 없이 형/부면 How</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>명령문은 주어 You가 생략되어 있음</li>
+      <li>What/How 선택은 “명사 유무”로 결정</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>동사로 시작하면 명령문 가능성 높음</li>
+      <li>감탄문은 끝에 명사 있는지부터 보기</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>명령=동사 시작, 청유=Let’s / 명사 있으면 What, 없으면 How</p>
+  </div>
+</section>
+
+<!-- 24강 -->
+<section class="lesson" id="l24">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>24강 · To부정사의 명사적 용법</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>to + 동사원형을 “명사(~하는 것)”로 해석</li>
+      <li>주어/목적어/보어 역할 구분</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>형태</b>: to + 동사원형 / <b>의미</b>: ~하는 것</p>
+    <table>
+      <tr><th>문장 성분</th><th>예시</th></tr>
+      <tr><td>주어</td><td>To learn is fun.</td></tr>
+      <tr><td>목적어</td><td>I want to go.</td></tr>
+      <tr><td>보어</td><td>My hobby is to read.</td></tr>
+    </table>
+    <small>Tip: 주어가 길면 가짜 주어 It 사용 → It is fun to learn English.</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>to부정사를 명사처럼 해석하지 못하면 문장 성분이 흔들림</li>
+      <li>It ~ to… 구조 자주 출제</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>to+동사가 보이면 일단 “~하는 것”으로 바꿔 읽기</li>
+      <li>자리(주어/목적어/보어)로 역할 판단</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>to부정사 명사적 용법은 “~하는 것”이다.</p>
+  </div>
+</section>
+
+<!-- 25강 -->
+<section class="lesson" id="l25">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>25강 · To부정사의 형용사/부사적 용법</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>형용사적(~할)과 부사적(목적: ~하기 위해) 구분</li>
+      <li>문장 속 위치로 판단하기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <ul>
+      <li><b>형용사적 용법</b>: 명사 뒤에서 수식(~할)<br><small>water to drink (마실 물)</small></li>
+      <li><b>부사적 용법</b>: 목적(why) 의미(~하기 위해서)<br><small>I went to meet him.</small></li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>명사 뒤 to가 보이면 형용사적 가능성이 큼</li>
+      <li>문장이 “왜?”에 답하면 부사적(목적)</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>to가 앞 명사를 꾸미는지(형용사) 확인</li>
+      <li>to가 목적을 말하는지(why) 확인</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>명사 뒤 to=형용사적, 목적이면 to=부사적</p>
+  </div>
+</section>
+
+<!-- 26강 -->
+<section class="lesson" id="l26">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>26강 · 동명사 (Gerund)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>동명사(-ing)의 명사 역할 이해</li>
+      <li>전치사 뒤 동명사 규칙 확립</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>형태</b>: 동사원형 + ing / <b>의미</b>: ~하는 것</p>
+    <table>
+      <tr><th>역할</th><th>예시</th></tr>
+      <tr><td>주어</td><td>Swimming is nice.</td></tr>
+      <tr><td>목적어</td><td>I enjoy listening to music.</td></tr>
+      <tr><td>보어</td><td>My job is teaching math.</td></tr>
+      <tr><td>전치사 뒤</td><td>good at swimming</td></tr>
+    </table>
+    <small>전치사 뒤에는 동명사만 가능(at to swim ❌)</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>전치사(in/at/on/of 등) 뒤에는 무조건 동명사</li>
+      <li>to부정사와 해석이 비슷해도 규칙이 다름</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>전치사가 보이면 다음 단어가 -ing인지 확인</li>
+      <li>-ing가 명사 자리(주어/목적어/보어)면 동명사</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>동명사는 -ing로 “~하는 것”, 전치사 뒤엔 동명사!</p>
+  </div>
+</section>
+
+<!-- 27강 -->
+<section class="lesson" id="l27">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>27강 · 동명사 vs 현재분사</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>-ing의 역할을 “명사/형용사”로 구분</li>
+      <li>문장/구에서 판단하는 기준 익히기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>구분</th><th>동명사</th><th>현재분사</th></tr>
+      <tr><td>역할</td><td>명사(~하는 것)</td><td>형용사(~하고 있는)</td></tr>
+      <tr><td>예시</td><td>Sleeping is nice.</td><td>He is sleeping.</td></tr>
+    </table>
+    <hr class="sep">
+    <ul>
+      <li>a sleeping bag = 잠자기 위한(용도)</li>
+      <li>a sleeping baby = 자고 있는(상태)</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>-ing가 명사를 꾸미면 현재분사일 가능성 높음</li>
+      <li>-ing가 문장 성분(주어/목적어 등)이면 동명사</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>“이 -ing는 무엇을 대신하나?” → 명사면 동명사</li>
+      <li>“이 -ing는 무엇을 꾸미나?” → 형용사면 현재분사</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>-ing가 명사면 동명사, 형용사면 현재분사</p>
+  </div>
+</section>
+
+<!-- 28강 -->
+<section class="lesson" id="l28">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>28강 · 목적어 짝꿍 동사 (To부정사 vs 동명사)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>동사마다 목적어로 오는 형태(to/ing) 암기</li>
+      <li>시험에 자주 나오는 짝꿍 동사 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>구분</th><th>동사 리스트</th><th>예시</th></tr>
+      <tr><td>To만</td><td>want, hope, wish, plan, decide, promise</td><td>I want to go.</td></tr>
+      <tr><td>ing만</td><td>enjoy, finish, stop, mind, keep, quit</td><td>I finished doing it.</td></tr>
+      <tr><td>둘 다</td><td>like, love, hate, start, begin</td><td>like to go / like going</td></tr>
+    </table>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>이 파트는 “암기형”으로 출제 비율이 매우 높음</li>
+      <li>stop은 ing만(기본 학습 기준)</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>to 동사는 미래지향(계획/의지), ing 동사는 경험/현재 느낌으로 묶어 외우기</li>
+      <li>문장 만들면서 입에 붙게 암기</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>동사마다 목적어 짝꿍(to/ing)이 정해져 있다.</p>
+  </div>
+</section>
+
+<!-- 29강 -->
+<section class="lesson" id="l29">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>29강 · 시간 전치사 (at, on, in)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>시간의 범위에 따라 at/on/in 구분</li>
+      <li>자주 나오는 표현까지 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>전치사</th><th>쓰임</th><th>예시</th></tr>
+      <tr><td>at</td><td>시각/시점</td><td>at 5:00, at noon, at night</td></tr>
+      <tr><td>on</td><td>요일/날짜</td><td>on Sunday, on May 5th</td></tr>
+      <tr><td>in</td><td>월/계절/연도/아침·오후·저녁</td><td>in April, in 2024, in the morning</td></tr>
+    </table>
+    <small>좁은 시간(at) → 넓은 시간(in)으로 확장</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>in the morning/afternoon/evening는 in</li>
+      <li>날짜/요일이 보이면 on부터 의심</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>“딱 찍히는 시간”이면 at, “날짜”면 on, “넓은 기간”이면 in</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>시간 전치사: at(시각) / on(날짜) / in(기간)</p>
+  </div>
+</section>
+
+<!-- 30강 -->
+<section class="lesson" id="l30">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>30강 · 장소 전치사 (at, on, in)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>장소의 성격(점/표면/내부)로 at/on/in 구분</li>
+      <li>자주 쓰는 장소 표현 정리</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <table>
+      <tr><th>전치사</th><th>개념</th><th>예시</th></tr>
+      <tr><td>at</td><td>지점(점)</td><td>at home, at school, at the station</td></tr>
+      <tr><td>on</td><td>표면 위(접촉)</td><td>on the table, on the wall, on the 2nd floor</td></tr>
+      <tr><td>in</td><td>내부/넓은 지역</td><td>in the box, in Seoul, in the park</td></tr>
+    </table>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>도시/나라처럼 넓은 지역은 in이 기본</li>
+      <li>층(2nd floor)은 on으로 많이 표현</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>지도상의 “점”이면 at, 표면이면 on, 안/넓은 공간이면 in</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>장소 전치사: at(지점) / on(표면) / in(내부·지역)</p>
+  </div>
+</section>
+
+<!-- 31강 -->
+<section class="lesson" id="l31">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>31강 · 기타 전치사 (for, during, by, with...)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>헷갈리는 전치사 의미 차이 정리</li>
+      <li>for/during, by, with 등 필수 표현 익히기</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 핵심 개념</h3>
+    <p><b>~동안</b> (for vs during)</p>
+    <ul>
+      <li>for + 숫자 기간: for 3 days</li>
+      <li>during + 특정 기간(명사): during the vacation</li>
+    </ul>
+    <hr class="sep">
+    <ul>
+      <li><b>by</b>: ~까지(완료), ~옆에 (by 5 o’clock / by the window)</li>
+      <li><b>with</b>: ~와 함께, ~을 가지고 (with my friends / with a knife)</li>
+      <li><b>about</b>: ~에 관하여</li>
+      <li><b>under</b>: ~아래에</li>
+    </ul>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>for는 “기간 길이(숫자)”, during은 “기간 이름(명사)”</li>
+      <li>by는 ‘완료 시점’ 의미로 자주 출제</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 사고법</h3>
+    <ul>
+      <li>기간이 숫자면 for부터, 방학/여름처럼 이름이면 during부터</li>
+      <li>by는 “~까지 끝내라” 느낌을 떠올리기</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 한 줄 정리</h3>
+    <p>for=숫자 기간, during=특정 기간(명사) / by=~까지 / with=함께·가지고</p>
+  </div>
+</section>
+
+<!-- 32강 -->
+<section class="lesson" id="l32">
+    <button class="copy-btn" type="button">📋 이 강의 Markdown 복사</button>
+  <h2>32강 · Level 1 총정리 (Final Test)</h2>
+
+  <div class="block goal">
+    <h3>🎯 학습 목표</h3>
+    <ul>
+      <li>1~31강 전체 문법을 영역별로 점검</li>
+      <li>내 취약점(구멍)을 발견하고 보완</li>
+    </ul>
+  </div>
+
+  <div class="block core">
+    <h3>📌 체크 포인트</h3>
+    <ul>
+      <li><b>동사</b>: be동사 vs 일반동사, 3인칭 단수 s</li>
+      <li><b>시제</b>: 과거(ed/불규칙), 진행(be+ing), 미래(will/going to)</li>
+      <li><b>명사</b>: 셀 수 있는/없는 명사, 관사 a/an(발음 기준), 복수형</li>
+      <li><b>준동사</b>: to부정사/동명사 역할, 목적어 짝꿍(to/ing)</li>
+      <li><b>전치사</b>: 시간/장소 at·on·in, 기타 전치사</li>
+    </ul>
+    <small>조언: 틀린 문제는 “해설 읽고 끝”이 아니라, 해당 강으로 돌아가 한 줄 정리부터 다시 확인</small>
+  </div>
+
+ <div class="block core">
+    <h3>📌 체크 포인트</h3>
+    <ul>
+      <li><b>동사</b>: be동사 vs 일반동사, 3인칭 단수 s</li>
+      <li><b>시제</b>: 과거(ed/불규칙), 진행(be+ing), 미래(will/going to)</li>
+      <li><b>명사</b>: 셀 수 있는/없는 명사, 관사 a/an(발음 기준), 복수형</li>
+      <li><b>준동사</b>: to부정사/동명사 역할, 목적어 짝꿍(to/ing)</li>
+      <li><b>전치사</b>: 시간/장소 at·on·in, 기타 전치사</li>
+    </ul>
+    <small>조언: 틀린 문제는 “해설 읽고 끝”이 아니라, 해당 강으로 돌아가 한 줄 정리부터 다시 확인</small>
+  </div>
+
+  <div class="block warn">
+    <h3>⚠️ 시험/함정 포인트</h3>
+    <ul>
+      <li>틀린 이유를 기록하지 않으면 같은 실수를 반복</li>
+      <li>특히 3인칭 단수, Did/Does 뒤 원형, 전치사 뒤 동명사는 실수 TOP</li>
+    </ul>
+  </div>
+
+  <div class="block think">
+    <h3>✏️ 추천 복습 루틴</h3>
+    <ul>
+      <li>1) Final Test 풀기 → 2) 틀린 영역 표시 → 3) 해당 강 한 줄 정리 재확인 → 4) 유사 문제 3개 더</li>
+    </ul>
+  </div>
+
+  <div class="block summary">
+    <h3>✅ 완강 한 줄 정리</h3>
+    <p>Level 1은 “문장 뼈대”를 세우는 단계 — 여기만 탄탄하면 Level 2가 훨씬 쉬워진다.</p>
+  </div>
+</section>
+
+</div>
+<script>
+function htmlToMarkdown(section) {
+  let md = '';
+
+  // 제목
+  const title = section.querySelector('h2');
+  if (title) {
+    md += '## ' + title.textContent.trim() + '\n\n';
+  }
+
+  section.querySelectorAll('.block').forEach(block => {
+    const h3 = block.querySelector('h3');
+    if (h3) {
+      md += '**' + h3.textContent.trim() + '**\n\n';
+    }
+
+    // 리스트
+    block.querySelectorAll('ul').forEach(ul => {
+      ul.querySelectorAll('li').forEach(li => {
+        md += '* ' + li.textContent.trim() + '\n';
+      });
+      md += '\n';
+    });
+
+    // 문단
+    block.querySelectorAll('p').forEach(p => {
+      md += p.textContent.trim() + '\n\n';
+    });
+
+    // 테이블
+    block.querySelectorAll('table').forEach(table => {
+      const rows = Array.from(table.querySelectorAll('tr'));
+      rows.forEach((row, i) => {
+        const cells = Array.from(row.children).map(td => td.textContent.trim());
+        md += '| ' + cells.join(' | ') + ' |\n';
+        if (i === 0) {
+          md += '| ' + cells.map(() => '---').join(' | ') + ' |\n';
+        }
+      });
+      md += '\n';
+    });
+  });
+
+  return md.trim();
+}
+
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const section = btn.closest('.lesson');
+    const markdown = htmlToMarkdown(section);
+
+    navigator.clipboard.writeText(markdown).then(() => {
+      btn.classList.add('copied');
+      btn.textContent = '✅ 복사됨';
+      setTimeout(() => {
+        btn.classList.remove('copied');
+        btn.textContent = '📋 이 강의 Markdown 복사';
+      }, 1500);
+    });
+  });
+});
+</script>
+
+</body>
+</html>
